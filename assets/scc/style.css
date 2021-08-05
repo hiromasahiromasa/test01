@@ -1,0 +1,62 @@
+.Prima{
+    font-family: 'Style Script', cursive;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+}
+
+.Prima>img{
+    width:800px ;
+    overflow: hidden;
+}    
+
+.title{
+    font-size: 80px;
+}
+
+.message{
+    font-size: 20px;
+}
+
+.loop_wrap{
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    overflow: hidden;
+}
+
+.loop_wrap>img{
+    width: auto;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+@keyframes loop {
+    0% {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-300%);
+    }
+  }
+  
+  .loop_wrap>img {
+    animation: loop 50s linear infinite;
+  }
+  
+.navbar{
+    height: 70px;
+}
+
+.nav-item{
+    font-size: 25px;
+    display: flex;
+    margin-left: 200px;
+}
+
+footer{
+   font-size: 20px;
+   background-color: rgb(224, 222, 222);
+   color: white;
+   text-align: center;
+}
